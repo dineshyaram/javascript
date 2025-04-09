@@ -14,3 +14,25 @@ console.log(2e53);
    symbol --> 
 
 */
+// above all are primitive datatype (stores in "STACK" memory)
+ 
+/* 
+points on priitive :
+1) if you declare a variable it change in copy(not the original one) then stores in stack memory
+*/
+// example :
+let name = "dinesh"
+let newName = name
+newName = "kanna"
+console.log(name);
+console.log(newName);
+
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// arrays ,object & functions are non primitive datatypes  (stores in "heap" memory)
+/* 
+points on priitive :
+1) in this if declare variable stores in heap memory and change in referance(original value)
+*/
