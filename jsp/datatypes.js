@@ -36,3 +36,11 @@ console.log(newName);
 points on priitive :
 1) in this if declare variable stores in heap memory and change in referance(original value)
 */
+let userOne = {
+   email : '@gmail.com',
+   upino : '12345678@ybl'
+   
+}
+console.log(userOne);
+// in this  given userone store in stack and the value of it store in  heap memory that mean 
+//                                         we are giving referance the value in heap memory
